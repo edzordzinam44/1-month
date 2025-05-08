@@ -94,6 +94,10 @@ main {
     order: 1;
 }
 
+.main-2 span {
+    color: #721d1f;
+}
+
 .page-img {
     height: 800px;
     order: 2;
