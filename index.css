@@ -28,6 +28,7 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
+    height: 200px;
     /* order: 3; */
 }
 
