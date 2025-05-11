@@ -81,6 +81,14 @@ main {
     background: linear-gradient(to top, #113a4e, #000066);
 }
 
+main h1 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 50px 20px 10px 1px;
+    font-size: 150px;
+}
+
 .main-1 {
     display: flex;
     justify-content: space-between;
