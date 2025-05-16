@@ -78,7 +78,8 @@ hr {
 /* Main Section */
 
 main {
-    background: linear-gradient(to top, #113a4e, #000066);
+    background: #000;
+    color: #fff;
 }
 
 main h1 {
