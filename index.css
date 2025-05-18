@@ -30,6 +30,7 @@ header {
     margin-right: auto;
     height: 40px;
     width: 250px;
+    margin-left: -90px;
     /* order: 3; */
 }
 
