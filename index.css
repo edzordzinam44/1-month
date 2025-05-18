@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 5%;
     background-color: #050624;
 }
 
@@ -30,7 +30,7 @@ header {
     position: relative;
     height: 40px;
     width: 150px;
-    margin-left: -90px;
+    /* margin-left: -90px; */
     /* order: 3; */
 }
 
@@ -59,11 +59,12 @@ header {
     order: 2;
 } */
 
-button {
+.btnn {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
+    background-color: transparent;
+    border: 1px solid #000;
     border-radius: 50px;
+    color: #faf9f9;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin-left: auto;
@@ -74,8 +75,18 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
+.btnn2 {
+    background-color: transparent;
+    border-radius: 1px solid red;
+    border-radius: 50px;
+    padding: 9px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+}
+
 hr {
-    border: 1px solid black;
+    border: 1px solid rgb(248, 2, 2);
 }
 
 /* Main Section */
@@ -85,22 +96,63 @@ main {
     color: #fff;
 }
 
-main h1 {
+.cont1 {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    /* display: inline-block;
+    align-items: center; */
+}
+
+.fabulous {
+    font-size: 200px;
+    position: relative;
+    font-weight: bold;
+}
+
+.hope-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hope {
+    font-size: 150px;
+    font-weight: bold;
+    margin-top: -75px;
+}
+
+
+
+/* .hope {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+} */
+/* main h1 { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 10px 20px 10px 1px;
     font-size: 150px;
-}
+} */
 
 .main-1 {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-en; */
     align-items: center;
+    justify-content: center;
     padding: 30px;
 }
 
-.main-2 {
+/* .main-2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 60px;
@@ -110,9 +162,10 @@ main h1 {
 .main-2 span {
     color: #721d1f;
     font-family: 'Courier New', Courier, monospace;
-}
+} */
 
 .page-img {
+    position:relative;
+    top: -100px;
     height: 800px;
-    order: 2;
 }
