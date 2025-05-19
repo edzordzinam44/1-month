@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5%;
+    padding: 10px 4%;
     background-color: #050624;
 }
 
@@ -34,9 +34,10 @@ header {
     /* order: 3; */
 }
 
-/* nav {
-    order: 1;
-} */
+nav {
+    display: flex;
+    margin: 0 0px 0 30%;
+}
 
 .nav-link {
     list-style: none;
@@ -169,3 +170,5 @@ main {
     top: -100px;
     height: 800px;
 }
+
+/* About Section */
