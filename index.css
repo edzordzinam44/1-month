@@ -103,11 +103,15 @@ main {
     justify-content: center;
     margin-top: 65px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .container {
     position: relative;
     text-align: center;
+    min-height: 80vh;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     /* display: inline-block;
     align-items: center; */
 }
@@ -116,20 +120,19 @@ main {
     font-size: 200px;
     position: relative;
     font-weight: bold;
-    padding: 0%;
 }
 
 .hope-container {
     position: relative;
     display: inline-block;
-    padding: 0%;
+    padding-bottom: 0px;
 }
 
 .hope {
     font-size: 150px;
     font-weight: bold;
     margin-top: -75px;
-    padding: 0%;
+    padding-bottom: 0px;
 }
 
 /* .hope {
@@ -146,22 +149,12 @@ main {
     margin: 10px 20px 10px 1px;
     font-size: 150px;
 } */
-
-.main-1 {
-    display: flex;
-    /* justify-content: space-en; */
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-}
-
 /* .main-2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 60px;
     order: 1;
 }
-
 .main-2 span {
     color: #721d1f;
     font-family: 'Courier New', Courier, monospace;
@@ -171,6 +164,8 @@ main {
     position:relative;
     top: -100px;
     height: 800px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 /* Focus Section */
@@ -178,9 +173,15 @@ main {
     position: relative;
     top: -600px;
     padding-left: 10%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .focus p {
     font-size: 15px;
     font-weight: bold;
+}
+
+.services {
+    background-color: #000000;
 }
