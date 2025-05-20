@@ -182,6 +182,11 @@ main {
     font-weight: bold;
 }
 
-.services {
+/* .services {
     background-color: #000000;
+} */
+
+.services-main {
+    background-color: #fff;
+    color: #000;
 }
