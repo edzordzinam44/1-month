@@ -193,7 +193,7 @@ main {
 
 /* Footer */
 
-.footer-links {
-    /* background-color: #fff; */
+footer, .footer-links, li {
+    background-color: red;
     color: #000;
 }
