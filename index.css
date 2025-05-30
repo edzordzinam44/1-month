@@ -93,15 +93,23 @@ hr {
 /* Main Section */
 
 main {
-    background: #000;
+    /* background: #000; */
     color: #fff;
+}
+
+
+.main-bg1 {
+    background: #000;
+    top: 150px;
+    margin-top: 0%;
+    /* height: 70%; */
 }
 
 .cont1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 65px;
+    /* margin-top: 65px; */
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -193,7 +201,7 @@ main {
 
 /* Footer */
 
-footer, .footer-links, li {
+footer, .footer-links {
     background-color: red;
     color: #000;
 }
