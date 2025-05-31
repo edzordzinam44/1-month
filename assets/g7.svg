@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.526978mm"
+   height="15.807264mm"
+   viewBox="0 0 87.526978 15.807264"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="g7.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#080808"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-88.177363,-108.73179)">
+    <g
+       id="g2">
+      <text
+         xml:space="preserve"
+         style="font-size:10.445px;line-height:0.9;fill:#000000;stroke-width:2.00001;paint-order:stroke fill markers"
+         x="125.64567"
+         y="100.3343"
+         id="text2"
+         transform="scale(0.80691475,1.2392883)"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="fill:#000000;stroke-width:2.00001"
+           x="125.64567"
+           y="100.3343">WHY CHOOSE ME</tspan></text>
+      <path
+         sodipodi:type="star"
+         style="fill:#00ff00;stroke-width:6.01588;paint-order:stroke fill markers"
+         id="path2"
+         inkscape:flatsided="false"
+         sodipodi:sides="5"
+         sodipodi:cx="40.904194"
+         sodipodi:cy="74.694611"
+         sodipodi:r1="21.10952"
+         sodipodi:r2="10.55476"
+         sodipodi:arg1="0.90482709"
+         sodipodi:arg2="1.5331456"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 53.94611,91.293413 41.301494,85.24189 29.147968,92.227522 30.995907,78.331755 20.59653,68.931743 l 13.786706,-2.536534 5.726357,-12.795158 6.672714,12.328104 13.93846,1.492168 -9.662741,10.155721 z"
+         inkscape:transform-center-x="0.064155579"
+         inkscape:transform-center-y="-0.60562319"
+         transform="matrix(0.27624435,0,0,0.40009976,82.487688,87.286421)" />
+    </g>
+  </g>
+</svg>
