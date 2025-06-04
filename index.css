@@ -234,7 +234,7 @@ main {
 .service-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 3rem;
+    gap: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
