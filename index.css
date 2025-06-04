@@ -201,6 +201,7 @@ main {
 .services-main {
     background-color: #fff;
     color: #000;
+    /* padding: 3rem 50px; */
 }
 
 .services img {
@@ -242,8 +243,9 @@ main {
     transition: transform 0.3s;
 }
 
-.brands-focus {
+#brands-focus {
     color: #000;
+    padding: 150px 100px;
 }
 
 .brands img {
@@ -251,6 +253,11 @@ main {
     border: 1px solid #000;
     border-radius: 20px;
     padding: 0.3rem;
+}
+
+.brands h2 {
+    font-size: 70px;
+    margin-bottom: 80px;
 }
 
 /* Footer */
