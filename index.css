@@ -242,6 +242,17 @@ main {
     transition: transform 0.3s;
 }
 
+.brands-focus {
+    color: #000;
+}
+
+.brands img {
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 0.3rem;
+}
+
 /* Footer */
 
 footer, .footer-links {
