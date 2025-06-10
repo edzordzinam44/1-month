@@ -249,6 +249,10 @@ main {
     background-color: #000;
 }
 
+.brands {
+    padding-bottom: 2rem;
+}
+
 .brands img {
     width: 200px;
     border: 1px solid #fff;
