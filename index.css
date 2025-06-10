@@ -149,7 +149,7 @@ main {
     transform: translate(-50%, -50%);
     font-size: 150px;
 } */
-/* main h1 { 
+/* main h1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -269,12 +269,18 @@ main {
 .brands-cont {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    /* gap: 1rem; */
+}
+
+.brands-grid img {
+    max-width: 600px;
     /* padding: 2rem; */
-    transition: transform 0.3s;
+    border-radius: 20px;
+}
+
+.brands-grid {
+    /* border-radius: 10px; */
+    padding: 2rem;
 }
 
 /* Footer */
