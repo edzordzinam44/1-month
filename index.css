@@ -259,6 +259,7 @@ main {
 .brands h2 {
     font-size: 70px;
     margin-bottom: 80px;
+    max-width: 68%;
 }
 
 /* Footer */
