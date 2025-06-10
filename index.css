@@ -244,13 +244,14 @@ main {
 }
 
 #brands-focus {
-    color: #000;
+    color: #fff;
     padding: 150px 100px;
+    background-color: #000;
 }
 
 .brands img {
     width: 200px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     border-radius: 20px;
     padding: 0.3rem;
 }
