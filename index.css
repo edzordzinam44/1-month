@@ -266,11 +266,8 @@ main {
     max-width: 68%;
 }
 
-.brands-cont {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    /* gap: 1rem; */
-}
+/* .brands-cont {
+} */
 
 .brands-grid img {
     max-width: 600px;
@@ -281,6 +278,9 @@ main {
 .brands-grid {
     /* border-radius: 10px; */
     padding: 2rem;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
 }
 
 /* Footer */
