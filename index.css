@@ -311,3 +311,7 @@ footer, .footer-links {
     background-color: red;
     color: #000;
 }
+
+.uii li a {
+    color: #000;
+}
