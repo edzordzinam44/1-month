@@ -266,21 +266,27 @@ main {
     max-width: 68%;
 }
 
-/* .brands-cont {
-} */
+.brands-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
 
 .brands-grid img {
-    max-width: 600px;
-    /* padding: 2rem; */
+    width: 100%;
+    max-width: 1200px;
+    /* margin: 2rem; */
     border-radius: 20px;
 }
 
 .brands-grid {
     /* border-radius: 10px; */
-    padding: 2rem;
-    display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+    /* padding: 2rem; */
+    /*display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+    padding-top: 15%;
+    border-radius: 30px;
+    border: 1px solid #fff;
 }
 
 /* Footer */
