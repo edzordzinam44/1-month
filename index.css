@@ -319,6 +319,10 @@ main {
     padding-right: 5px;
 }
 
+.consults-list li {
+    color: #000;
+}
+
 /* Footer */
 
 footer, .footer-links {
