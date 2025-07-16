@@ -329,6 +329,10 @@ main {
     color: green;
 }
 
+.wrap-icon {
+    color: #fff;
+} 
+
 /* Footer */
 
 footer, .footer-links {
