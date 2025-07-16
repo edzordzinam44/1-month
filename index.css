@@ -325,6 +325,10 @@ main {
     color: #000;
 }
 
+.element-icon {
+    color: green;
+}
+
 /* Footer */
 
 footer, .footer-links {
