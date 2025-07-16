@@ -303,13 +303,20 @@ main {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
+.brands-grid h3 {
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
 #consults {
     margin: 5rem;
     display: flex;
     justify-content: space-between;
 }
 
-.consults-grid p {
+.consults-grid span {
     border: 1px solid #000;
     width: 95px;
     border-radius: 15px;
