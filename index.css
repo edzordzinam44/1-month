@@ -333,9 +333,9 @@ main {
 }
 
 /* Element Icon */
-.element-icon {
-    width: 15px;
+.element-icon svg {
     color: green;
+    width: 12px; /* Adjust this value as needed */
 }
 
 .wrap-icon {
