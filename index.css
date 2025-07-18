@@ -316,12 +316,12 @@ main {
     justify-content: space-between;
 }
 
-.consults-grid span {
+/* .consults-grid span {
     border: 1px solid #000;
     width: 95px;
     border-radius: 15px;
     margin: 10px;
-} 
+} */
 
 #consults img {
     width: 15px;
