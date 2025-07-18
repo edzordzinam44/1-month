@@ -332,7 +332,9 @@ main {
     color: #000;
 }
 
+/* Element Icon */
 .element-icon {
+    width: 15px;
     color: green;
 }
 
