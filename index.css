@@ -340,7 +340,14 @@ main {
 
 .wrap-icon {
     color: #fff;
-} 
+}
+
+.brands-icon {
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 10%;
+    padding: 0.2%;
+}
 
 /* Footer */
 
