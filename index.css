@@ -310,6 +310,21 @@ main {
     text-transform: uppercase;
 }
 
+.brands-icon {
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 10%;
+    padding: 0.2%;
+}
+
+.brands-icon1 {
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 16%;
+    padding: 0.2%;
+    padding-left: 5px;
+}
+
 #consults {
     margin: 5rem;
     display: flex;
@@ -339,12 +354,6 @@ main {
     color: #fff;
 }
 
-.brands-icon {
-    border: 1px solid #000;
-    border-radius: 15px;
-    width: 10%;
-    padding: 0.2%;
-}
 
 /* Footer */
 
