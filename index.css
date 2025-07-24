@@ -341,20 +341,26 @@ main {
     padding-left: 5px;
 }
 
-#consults {
-    margin: 10%;
+.consults {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.consults-grid {
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    /* padding: 10px 4%; */
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 
 .consults-grid h2 {
     font-size: 70px;
-    display: inline-block;
+    /* display: inline-block; */
     /* margin-bottom: 80px; */
 }
+
+
 
 .consults-list li {
     color: #000;
@@ -366,6 +372,11 @@ main {
 .element-icon svg {
     color: green;
     width: 12px; /* Adjust this value as needed */
+}
+
+.element-icon {
+    display: flex;
+    align-items: center;
 }
 
 .wrap-icon {
