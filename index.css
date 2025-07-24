@@ -342,23 +342,18 @@ main {
 }
 
 #consults {
-    margin: 5rem 0 5rem auto;
+    margin: 10%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    max-width: 1200px;
-    width: 100%;
-    padding: 2rem;
-    box-sizing: border-box;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* padding: 10px 4%; */
 }
 
-/* .consults-grid {
-    margin-right: 40%;
-} */
 
 .consults-grid h2 {
     font-size: 70px;
-    margin-bottom: 80px;
+    display: inline-block;
+    /* margin-bottom: 80px; */
 }
 
 .consults-list li {
