@@ -242,6 +242,8 @@ main {
     transition: transform 0.3s;
 }
 
+/* Brands */
+
 #brands-focus {
     color: #fff;
     padding: 150px 100px;
@@ -341,17 +343,19 @@ main {
     padding-left: 5px;
 }
 
+/* Consults */
+
 .consults {
-    margin: 10% 5%;
+    margin: 10% auto;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    gap: 10rem;
-    /* padding: 2rem; */
+    gap: 4rem;
     transition: transform 0.3s;
 }
 
 .consults-list article ol {
-    width: 200%;
+    width: 100%;
     list-style: none;
     font-size: 16px;
 }
@@ -365,22 +369,18 @@ main {
     margin-bottom: 20px;
 }
 
-
 .consults-grid h2 {
     font-size: 70px;
-    /* display: inline-block; */
-    /* margin-bottom: 80px; */
 }
-
-
 
 .consults-list li {
     color: #000;
-    width: 50%;
+    width: 100%;
 }
 
 
 /* Element Icon */
+
 .element-icon svg {
     color: green;
     width: 12px; /* Adjust this value as needed */
