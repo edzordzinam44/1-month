@@ -374,10 +374,10 @@ main {
     width: 12px; /* Adjust this value as needed */
 }
 
-.element-icon {
+/* .element-icon {
     display: flex;
     align-items: center;
-}
+} */
 
 .wrap-icon {
     color: #fff;
