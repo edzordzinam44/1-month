@@ -342,15 +342,20 @@ main {
 }
 
 .consults {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 20px;
+    margin: 10% 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 10rem;
+    /* padding: 2rem; */
+    transition: transform 0.3s;
 }
 
-.consults-grid {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+.consults-list article ol {
+    width: 200%;
+}
+
+.consults-list article ol span {
+    font-size: 16px;
 }
 
 
