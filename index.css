@@ -352,10 +352,17 @@ main {
 
 .consults-list article ol {
     width: 200%;
+    list-style: none;
+    font-size: 16px;
 }
 
-.consults-list article ol span {
-    font-size: 16px;
+.consults-list article hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.consults-list article h2 {
+    margin-bottom: 20px;
 }
 
 
