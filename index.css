@@ -378,6 +378,13 @@ main {
     width: 100%;
 }
 
+/* Brands-Offer */
+.brand-offer {
+    background-color: #000;
+    color: #fff;
+    padding: 150px 100px;
+}
+
 
 /* Element Icon */
 
