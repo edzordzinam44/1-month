@@ -398,6 +398,7 @@ main {
 }
 
 /* Offer Container  */
+
 .offer-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -407,6 +408,12 @@ main {
     border-radius: 10px;
     /* padding: 2rem; */
     transition: transform 0.3s;
+}
+
+.offer-cont {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10%;
 }
 
 /* Element Icon */
