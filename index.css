@@ -391,25 +391,29 @@ main {
 .brand-offer {
     background-color: #000;
     color: #fff;
-    
 }
 
 .brand-offer1 {
     padding: 150px 10%;
 }
 
+/* Offer Container  */
+.offer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    /* padding: 2rem; */
+    transition: transform 0.3s;
+}
 
 /* Element Icon */
-
 .element-icon svg {
     color: green;
     width: 12px; /* Adjust this value as needed */
 }
-
-/* .element-icon {
-    display: flex;
-    align-items: center;
-} */
 
 .wrap-icon {
     color: #fff;
