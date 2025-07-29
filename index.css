@@ -401,8 +401,8 @@ main {
 
 .offer-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -411,7 +411,7 @@ main {
 }
 
 .offer-cont {
-    border: 1px solid #fff;
+    border: 1px solid transparent;
     border-radius: 10px;
     padding: 10%;
 }
@@ -423,6 +423,15 @@ main {
 
 .offer p {
     padding-bottom: 20px;
+}
+
+.offer-cont hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grid1 {
+    background-color: #050624;
 }
 
 /* Element Icon */
