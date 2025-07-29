@@ -416,6 +416,15 @@ main {
     padding: 10%;
 }
 
+.offer h3 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.offer p {
+    padding-bottom: 20px;
+}
+
 /* Element Icon */
 .element-icon svg {
     color: green;
