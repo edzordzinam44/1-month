@@ -434,6 +434,19 @@ main {
     background-color: #050624;
 }
 
+.element-list hr {
+    background-color: #fd0303;
+}
+
+.grid2 {
+    background-color: #fff;
+    color: #000;
+}
+
+.grid3 {
+    background-color: green;
+}
+
 /* Element Icon */
 .element-icon svg {
     color: green;
