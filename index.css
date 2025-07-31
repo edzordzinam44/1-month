@@ -448,6 +448,7 @@ main {
 }
 
 /* Element Icon */
+
 .element-icon svg {
     color: green;
     width: 12px; /* Adjust this value as needed */
@@ -455,6 +456,11 @@ main {
 
 .wrap-icon {
     color: #fff;
+}
+
+/* About Section */
+.about-section {
+    margin: 8rem 3rem;
 }
 
 
