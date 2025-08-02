@@ -486,6 +486,16 @@ main {
     background: linear-gradient(to bottom, #000066 0%, #6699ff 100%);
 }
 
+.discover h3 {
+    font-size: 36px;
+}
+
+.socials {
+    display: block;
+    position: relative;
+    justify-self: unset;
+}
+
 
 /* Footer */
 
