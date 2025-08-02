@@ -490,10 +490,18 @@ main {
     font-size: 36px;
 }
 
+
 .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-center; /* or center for centered icons */
+    gap: 10px; /* space between icons */
+}
+
+.socials svg {
+    width: 32px;
+    height: 32px;
     display: block;
-    position: relative;
-    justify-self: unset;
 }
 
 
