@@ -471,6 +471,21 @@ main {
     margin: 8rem 3rem;
 }
 
+.about-me {
+    /* background: linear-gradient(to bottom, #000066 0%, #6699ff 100%); */
+    width: 70%;
+    min-height: 200px;
+}
+
+.about-me img {
+     width: 100%;
+    max-width: 1200px;
+    /* margin: 2rem; */
+    border-radius: 20px;
+    display: block;
+    background: linear-gradient(to bottom, #000066 0%, #6699ff 100%);
+}
+
 
 /* Footer */
 
