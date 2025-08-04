@@ -477,13 +477,23 @@ main {
     min-height: 200px;
 }
 
-.about-me img {
-     width: 100%;
+.about-me {
+    width: 80%;
+    height: 350px;
     max-width: 1200px;
     /* margin: 2rem; */
     border-radius: 20px;
     display: block;
     background: linear-gradient(to bottom, #000066 0%, #6699ff 100%);
+    overflow: hidden;
+}
+
+.about-me img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 20px;
 }
 
 .discover h3 {
