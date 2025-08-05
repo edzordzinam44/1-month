@@ -493,7 +493,7 @@ main {
     max-width: 100%;
     height: auto;
     display: block;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .discover h3 {
