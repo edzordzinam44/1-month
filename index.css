@@ -519,9 +519,12 @@ main {
 
 /* About Section2 */
 
-.section1-gird {
+.section1-grid {
     background-color: #000;
     color: #fff;
+    padding: 10rem;
+    font: optional;
+    font-weight: 100;
 }
 
 .section2 {
