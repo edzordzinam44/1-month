@@ -531,11 +531,26 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem;
-    margin-top: 10px;
+    /* margin-top: 10px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 10px; */
     /* padding: 2rem; */
     transition: transform 0.3s;
+}
+
+.section2-grid {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 2em;
+    /* background: linear-gradient(to top, #003366 12%, #3333cc 93%); */
+    /* background-color: #050624; */
+    background: linear-gradient(to bottom, #003300 36%, #009900 81%);
+}
+
+.section2-grid h2, strong {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 
