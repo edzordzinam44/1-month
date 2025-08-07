@@ -547,7 +547,7 @@ main {
     background: linear-gradient(to bottom, #003300 36%, #009900 81%);
 }
 
-.section2-grid h2, strong {
+.section2-grid h2 {
     font-size: 32px;
     margin-top: 10px;
     margin-bottom: 20px;
