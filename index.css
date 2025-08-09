@@ -542,9 +542,6 @@ main {
     border: 1px solid #fff;
     border-radius: 10px;
     padding: 2em;
-    margin: 20px;
-    /* background: linear-gradient(to top, #003366 12%, #3333cc 93%); */
-    /* background-color: #050624; */
     background: linear-gradient(to bottom, #003300 36%, #009900 81%);
 }
 
