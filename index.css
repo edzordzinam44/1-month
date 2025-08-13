@@ -464,7 +464,6 @@ main {
 
 .wrap-icon {
     color: #fff;
-    width: 12px;
 }
 
 /* About Section */
@@ -554,6 +553,11 @@ main {
 
 .wrapper-email {
     background: #000;
+}
+
+.wrap-icon svg {
+    width: 30px;
+    height: 30px;
 }
 
 
