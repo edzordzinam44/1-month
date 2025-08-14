@@ -568,6 +568,11 @@ main {
     height: 30px;
 }
 
+.wrap-mail {
+    /* display: flex; */
+    background-color: grey;
+}
+
 
 /* Footer */
 
