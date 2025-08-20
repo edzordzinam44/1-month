@@ -559,24 +559,27 @@ main {
     color: #000;
 }
 
-/* .wrapper-email {
-    background: #000;
-} */
-
 .wrap-icon svg {
     width: 30px;
     height: 30px;
 }
 
-/* .wrap-mail {
-    display: flex;
-    background-color: grey;
-} */
 
 /* Contact Section  */
 
 .contact-me {
     background-color: #54595F;
+}
+
+.contact-div {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-div2 {
+    padding: 10rem;
+    background: #000;
 }
 
 
