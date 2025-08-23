@@ -569,7 +569,13 @@ main {
 
 .contact-me {
     background-color: #54595F;
-    padding: 50px 20px;
+    padding: 5% 3%;
+}
+
+.contact-div {
+    border: 1px solid red;
+    background: #000;
+    color: #fff;
 }
 
 /* .contact-div {
@@ -577,8 +583,6 @@ main {
     justify-content: center;
     align-items: center;
 } */
-
-
 
 
 /* Footer */
