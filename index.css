@@ -583,7 +583,6 @@ main {
 
 .element-wrapper {
     margin: 3% 0;
-    /* font-size: 30px; */
     font-weight: bolder;
 }
 
@@ -598,7 +597,11 @@ main {
     flex-direction: column;
 }
 
-
+.wrap-mail {
+    margin-top: 5%;
+    font-size: 20px;
+    text-decoration: underline;
+}
 
 
 /* Footer */
