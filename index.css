@@ -555,15 +555,10 @@ main {
     margin-bottom: 20px;
 }
 
-/* .element-wrap-heading {
-    color: #000;
-} */
-
 .wrap-icon svg {
     width: 30px;
     height: 30px;
 }
-
 
 /* Contact Section  */
 
@@ -577,6 +572,32 @@ main {
     background: #000;
     color: #fff;
 }
+
+.contact-div2 {
+    margin: 5% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.element-wrapper {
+    margin: 3% 0;
+    /* font-size: 30px; */
+    font-weight: bolder;
+}
+
+.element-wrap-heading {
+    font-size: 70px;
+}
+
+.element-wrap-heading :last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 
 
