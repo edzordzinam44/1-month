@@ -363,8 +363,8 @@ main {
     border: 1px solid #fff;
     /* color: #000; */
     border-radius: 15px;
-    width: 190px;
-    padding: 0.2%;
+    width: 200px;
+    padding: 0.5%;
     padding-left: 5px;
     font-weight: bolder;
 }
