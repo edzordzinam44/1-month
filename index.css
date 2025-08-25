@@ -568,7 +568,8 @@ main {
 }
 
 .contact-div {
-    border: 1px solid red;
+    border: 1px solid #000;
+    border-radius: 15px;
     background: #000;
     color: #fff;
 }
