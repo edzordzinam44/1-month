@@ -604,6 +604,18 @@ main {
     text-decoration: underline;
 }
 
+/* Scroll Button */
+.exceptions {
+    all: unset;
+}
+
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
 
 /* Footer */
 
