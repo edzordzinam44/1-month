@@ -610,10 +610,24 @@ main {
 }
 
 #backToTop {
-    display: none;
+    /* display: none; */
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 100;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 50%;
+    transition: opacity 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #555;
 }
 
 
