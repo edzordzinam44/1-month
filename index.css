@@ -28,11 +28,6 @@
     background-color: #f3ecec; /* can be made a variable if needed */
 }
 
-#brands-focus {
-    color: var(--color-text-light);
-    background-color: var(--color-bg-black);
-}
-
 .brands img, .brands-grid {
     border: 1px solid var(--color-border-light);
 }
@@ -320,9 +315,9 @@ main {
 /* Brands */
 
 #brands-focus {
-    color: #fff;
     padding: 150px 100px;
-    background-color: #000;
+    color: var(--color-text-light);
+    background-color: var(--color-bg-black);
 }
 
 .brands {
