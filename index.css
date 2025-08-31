@@ -22,47 +22,7 @@
 /* Replace hardcoded colors with variables below: */
 
 /* Example replacements: */
-header {
-    background-color: var(--color-bg-dark);
-}
 
-li, a, button {
-    color: var(--color-header);
-}
-
-.btnn {
-    border: 1px solid var(--color-border-dark);
-    color: var(--color-text-grey);
-}
-
-button:hover {
-    background-color: rgba(0, 136, 169, 0.8); /* keep for transparency */
-}
-
-.btnn2 {
-    border: 1px solid var(--color-border-light);
-}
-
-hr {
-    border: 1px solid var(--color-bg-dark);
-}
-
-.main-bg1 {
-    background: var(--color-bg-black);
-}
-
-.fabulous, .hope, main {
-    color: var(--color-text-light);
-}
-
-.services-main {
-    background-color: var(--color-bg-light);
-    color: var(--color-text-dark);
-}
-
-.services img {
-    border: 1px solid var(--color-border-dark);
-}
 
 .service {
     background-color: #f3ecec; /* can be made a variable if needed */
@@ -143,11 +103,12 @@ footer, .footer-links {
     background-color: var(--color-footer-bg);
     color: var(--color-footer-text);
 }
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* background-color: #050624; */
 }
 
 /* Header */
@@ -156,7 +117,7 @@ li, a, button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: var(--color-header);
     text-decoration: none;
 }
 
@@ -165,7 +126,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 4%;
-    background-color: #050624;
+    background-color: var(--color-bg-dark);
 }
 
 .logo {
@@ -202,9 +163,9 @@ nav {
 .btnn {
     padding: 9px 25px;
     background-color: transparent;
-    border: 1px solid #000;
+    border: 1px solid var(--color-border-dark);
+    color: var(--color-text-grey);
     border-radius: 50px;
-    color: #faf9f9;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin-left: auto;
@@ -217,7 +178,7 @@ button:hover {
 
 .btnn2 {
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid var(--color-border-light);
     border-radius: 50px;
     padding: 9px 20px;
     cursor: pointer;
@@ -226,7 +187,7 @@ button:hover {
 }
 
 hr {
-    border: 1px solid #050624;
+    border: 1px solid var(--color-bg-dark);
 }
 
 /* Main Section */
@@ -238,7 +199,7 @@ main {
 
 
 .main-bg1 {
-    background: #000;
+    background: var(--color-bg-black);
     min-height: 100vh;
 }
 
@@ -313,13 +274,13 @@ main {
 }
 
 .services-main {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-bg-light);
+    color: var(--color-text-dark);
 }
 
 .services img {
     max-width: 120px;
-    border: 1px solid #000;
+    border: 1px solid var(--color-border-dark);
     border-radius: 20px;
     padding: 0.5rem;
 }
