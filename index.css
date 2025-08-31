@@ -1,5 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --color-bg-dark: #050624;
+    --color-bg-black: #000;
+    --color-bg-light: #fff;
+    --color-bg-grey: #54595F;
+    --color-bg-gradient: linear-gradient(to bottom, #000066 0%, #6699ff 100%);
+    --color-bg-green-gradient: linear-gradient(to bottom, #003300 36%, #009900 81%);
+    --color-primary: #0088a9;
+    --color-accent: #fd0303;
+    --color-success: green;
+    --color-border-dark: #000;
+    --color-border-light: #fff;
+    --color-text-dark: #000;
+    --color-text-light: #fff;
+    --color-text-grey: #faf9f9;
+    --color-header: #edf0f1;
+    --color-footer-bg: red;
+    --color-footer-text: #000;
+}
 
+/* Replace hardcoded colors with variables below: */
+
+/* Example replacements: */
+header {
+    background-color: var(--color-bg-dark);
+}
+
+li, a, button {
+    color: var(--color-header);
+}
+
+.btnn {
+    border: 1px solid var(--color-border-dark);
+    color: var(--color-text-grey);
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8); /* keep for transparency */
+}
+
+.btnn2 {
+    border: 1px solid var(--color-border-light);
+}
+
+hr {
+    border: 1px solid var(--color-bg-dark);
+}
+
+.main-bg1 {
+    background: var(--color-bg-black);
+}
+
+.fabulous, .hope, main {
+    color: var(--color-text-light);
+}
+
+.services-main {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-dark);
+}
+
+.services img {
+    border: 1px solid var(--color-border-dark);
+}
+
+.service {
+    background-color: #f3ecec; /* can be made a variable if needed */
+}
+
+#brands-focus {
+    color: var(--color-text-light);
+    background-color: var(--color-bg-black);
+}
+
+.brands img, .brands-grid {
+    border: 1px solid var(--color-border-light);
+}
+
+.brands-btnn button {
+    background-color: var(--color-bg-black);
+}
+
+.brands-btnn button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.brands-icon, .brands-icon1, .brands-icon3, .brands-icon5 {
+    border: 1px solid var(--color-border-dark);
+}
+
+.brands-icon2, .brands-icon4, .brands-icon6 {
+    border: 1px solid var(--color-border-light);
+}
+
+.brand-offer {
+    background-color: var(--color-bg-black);
+    color: var(--color-text-light);
+}
+
+.grid1 {
+    background-color: var(--color-bg-dark);
+}
+
+.element-list hr {
+    background-color: var(--color-accent);
+}
+
+.grid2 {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-dark);
+}
+
+.grid3 {
+    background-color: var(--color-success);
+}
+
+.element-icon svg {
+    color: var(--color-success);
+}
+
+.section1-grid {
+    background-color: var(--color-bg-black);
+    color: var(--color-text-light);
+}
+
+.section2-grid {
+    border: 1px solid var(--color-border-light);
+    background: var(--color-bg-green-gradient);
+}
+
+.contact-me {
+    background-color: var(--color-bg-grey);
+}
+
+.contact-div {
+    border: 1px solid var(--color-border-dark);
+    background: var(--color-bg-black);
+    color: var(--color-text-light);
+}
+
+footer, .footer-links {
+    background-color: var(--color-footer-bg);
+    color: var(--color-footer-text);
+}
 * {
     box-sizing: border-box;
     margin: 0;
