@@ -27,12 +27,6 @@
     border: 1px solid var(--color-border-light);
 }
 
-
-.service {
-    background-color: #f3ecec;
-}
-
-
 * {
     box-sizing: border-box;
     margin: 0;
