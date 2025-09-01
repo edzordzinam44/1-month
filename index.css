@@ -19,19 +19,6 @@
     --color-footer-text: #000;
 }
 
-/* Replace hardcoded colors with variables below: */
-
-/* Example replacements: */
-
-
-.service {
-    background-color: #f3ecec; /* can be made a variable if needed */
-}
-
-.brands-btnn button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-}
-
 .brands-icon, .brands-icon1, .brands-icon3, .brands-icon5 {
     border: 1px solid var(--color-border-dark);
 }
@@ -40,55 +27,13 @@
     border: 1px solid var(--color-border-light);
 }
 
-.brand-offer {
-    background-color: var(--color-bg-black);
-    color: var(--color-text-light);
-}
+/* Replace hardcoded colors with variables below: */
 
-.grid1 {
-    background-color: var(--color-bg-dark);
-}
+/* Example replacements: */
 
-.element-list hr {
-    background-color: var(--color-accent);
-}
 
-.grid2 {
-    background-color: var(--color-bg-light);
-    color: var(--color-text-dark);
-}
-
-.grid3 {
-    background-color: var(--color-success);
-}
-
-.element-icon svg {
-    color: var(--color-success);
-}
-
-.section1-grid {
-    background-color: var(--color-bg-black);
-    color: var(--color-text-light);
-}
-
-.section2-grid {
-    border: 1px solid var(--color-border-light);
-    background: var(--color-bg-green-gradient);
-}
-
-.contact-me {
-    background-color: var(--color-bg-grey);
-}
-
-.contact-div {
-    border: 1px solid var(--color-border-dark);
-    background: var(--color-bg-black);
-    color: var(--color-text-light);
-}
-
-footer, .footer-links {
-    background-color: var(--color-footer-bg);
-    color: var(--color-footer-text);
+.service {
+    background-color: #f3ecec; /* can be made a variable if needed */
 }
 
 
@@ -377,14 +322,12 @@ main {
 
 /* Brands-Icons */
 .brands-icon {
-    border: 1px solid #000;
     border-radius: 15px;
     width: 15%;
     padding: 0.2%;
 }
 
 .brands-icon1 {
-    border: 1px solid #000;
     border-radius: 15px;
     width: 16%;
     padding: 0.2%;
@@ -392,7 +335,6 @@ main {
 }
 
 .brands-icon2 {
-    border: 1px solid #fff;
     border-radius: 15px;
     width: 15%;
     padding: 0.2%;
@@ -400,7 +342,6 @@ main {
 }
 
 .brands-icon3 {
-    border: 1px solid #000;
     border-radius: 15px;
     width: 130px;
     padding: 0.2%;
@@ -408,7 +349,6 @@ main {
 }
 
 .brands-icon4 {
-    border: 1px solid #fff;
     border-radius: 15px;
     width: 140px;
     padding: 0.2%;
@@ -416,14 +356,11 @@ main {
 }
 
 .brands-icon5 {
-    border: 1px solid #000;
     border-radius: 15px;
     width: 110px;
     padding: 0.2%;
 }
 .brands-icon6 {
-    border: 1px solid #fff;
-    /* color: #000; */
     border-radius: 15px;
     width: 200px;
     padding: 0.5%;
@@ -467,8 +404,8 @@ main {
 
 /* Brands-Offer */
 .brand-offer {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--color-bg-black);
+    color: var(--color-text-light);
 }
 
 .brand-offer1 {
@@ -509,26 +446,26 @@ main {
 }
 
 .grid1 {
-    background-color: #050624;
+    background-color: var(--color-bg-dark);
 }
 
 .element-list hr {
-    background-color: #fd0303;
+    background-color: var(--color-accent);
 }
 
 .grid2 {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--color-bg-light);
+    color: var(--color-text-dark);
 }
 
 .grid3 {
-    background-color: green;
+    background-color: var(--color-success);
 }
 
 /* Element Icon */
 
 .element-icon svg {
-    color: green;
+    color: var(--color-success);
     width: 12px; /* Adjust this value as needed */
 }
 
@@ -590,8 +527,8 @@ main {
 /* About Section2 */
 
 .section1-grid {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--color-bg-black);
+    color: var(--color-text-light);
     padding: 10rem;
     font: optional;
     font-weight: 100;
@@ -605,10 +542,10 @@ main {
 }
 
 .section2-grid {
-    border: 1px solid #fff;
     border-radius: 10px;
     padding: 2em;
-    background: linear-gradient(to bottom, #003300 36%, #009900 81%);
+    border: 1px solid var(--color-border-light);
+    background: var(--color-bg-green-gradient);
 }
 
 .section2-grid h2 {
@@ -625,15 +562,15 @@ main {
 /* Contact Section  */
 
 .contact-me {
-    background-color: #54595F;
+    background-color: var(--color-bg-grey);
     padding: 5% 3%;
 }
 
 .contact-div {
-    border: 1px solid #000;
     border-radius: 15px;
-    background: #000;
-    color: #fff;
+    border: 1px solid var(--color-border-dark);
+    background: var(--color-bg-black);
+    color: var(--color-text-light);
 }
 
 .contact-div2 {
@@ -696,6 +633,6 @@ main {
 /* Footer */
 
 footer, .footer-links {
-    background-color: red;
-    color: #000;
+    background-color: var(--color-footer-bg);
+    color: var(--color-footer-text);
 }
