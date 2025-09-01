@@ -27,13 +27,9 @@
     border: 1px solid var(--color-border-light);
 }
 
-/* Replace hardcoded colors with variables below: */
-
-/* Example replacements: */
-
 
 .service {
-    background-color: #f3ecec; /* can be made a variable if needed */
+    background-color: #f3ecec;
 }
 
 
