@@ -622,7 +622,9 @@ main {
 
 /* Footer */
 
-footer, .footer-links {
+footer {
     background-color: var(--color-footer-bg);
     color: var(--color-footer-text);
+    /* margin-bottom: 30px; */
+    padding: 10px 10px;
 }
