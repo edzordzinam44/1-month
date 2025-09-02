@@ -623,8 +623,13 @@ main {
 /* Footer */
 
 footer {
-    background-color: var(--color-footer-bg);
-    color: var(--color-footer-text);
+    background-color: var(--color-bg-dark);
+    color: var(--color-header);
     /* margin-bottom: 30px; */
     padding: 10px 10px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
 }
