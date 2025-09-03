@@ -122,7 +122,10 @@ main {
 
 .main-bg1 {
     background: var(--color-bg-black);
-    min-height: 100vh;
+    /* min-height: 50vh; */
+    position: relative;
+    padding-bottom: 0;
+    overflow: hidden;
 }
 
 .cont1 {
