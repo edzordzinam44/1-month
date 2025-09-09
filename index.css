@@ -508,6 +508,7 @@ main {
 .socials {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
     align-items: flex-center; /* or center for centered icons */
     gap: 10px; /* space between icons */
     /* justify-content: center; */
