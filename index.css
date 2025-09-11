@@ -444,6 +444,12 @@ main {
     background-color: var(--color-bg-dark);
 }
 
+.grid1 hr {
+    /* all: unset; */
+    /* padding: 15px 0; */
+    color: #000;
+}
+
 .element-list hr {
     background-color: var(--color-accent);
 }
