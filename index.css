@@ -141,15 +141,15 @@ main {
 .container {
     position: relative;
     text-align: center;
-    min-height: 80vh;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    width: 100%;
+    padding: 2% 0;
+    /* min-height: 80vh; */
     /* display: inline-block;
     align-items: center; */
 }
 
 .fabulous {
-    font-size: 200px;
+    font-size: 15vw;
     position: relative;
     font-weight: bold;
 }
