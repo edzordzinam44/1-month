@@ -143,6 +143,7 @@ main {
     text-align: center;
     width: 100%;
     padding: 2% 0;
+    margin-bottom: 0;
     /* min-height: 80vh; */
     /* display: inline-block;
     align-items: center; */
@@ -161,20 +162,37 @@ main {
 }
 
 .hope {
-    font-size: 150px;
+    font-size: 12vw;
     font-weight: bold;
-    margin-top: -75px;
-    padding-bottom: 0px;
+    margin-top: -6vw;
+    /* padding-bottom: 0px; */
 }
 
 .page-img {
     position:relative;
     display: block;
     max-height: 800px;
-    width: auto;
+    max-width: 100%;
     margin: 0 auto;
     padding-bottom: 0%;
     top: -100px;
+}
+
+@media screen and (max-width: 768px) {
+    .fabulous {
+        font-size: 18vw; /* Larger on smaller screens */
+    }
+    
+    .hope {
+        font-size: 15vw;
+        margin-top: -1vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .fabulous {
+        font-size: 12vw; /* Slightly smaller on very large screens */
+    }
 }
 
 /* Focus Section */
