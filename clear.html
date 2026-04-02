@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="clear.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>Home</li>
+                <li>Place</li>
+                <li>Gallery</li>
+                <li>Gifts</li>
+            </ul>
+            <button type="submit">Replay</button>
+        </nav>
+    </header>
+    <main>
+        <div class="begin">
+            <div class="bars">
+                <div class="bar" style="--i:1">1</div>
+                <div class="bar" style="--i:2">2</div>
+                <div class="bar" style="--i:3">3</div>
+                <div class="bar" style="--i:4">4</div>
+                <div class="bar" style="--i:5">5</div>
+                <div class="bar" style="--i:6">6</div>
+                <div class="bar" style="--i:7">7</div>
+                <div class="bar" style="--i:8">8</div>
+                <div class="bar" style="--i:9">9</div>
+                <div class="bar" style="--i:10">10</div>
+                <div class="bar" style="--i:11">11</div>
+            </div>
+        </div>
+        <section>
+            <nav class="navbar">
+                <button onclick="menubar.hidden^1">↑</button>
+                <ul id="menubar">
+                    <li>Home &#183; boy</li>
+                    <li>About &check;</li>
+                    <li>Contact &#10003; </li>
+                </ul>
+            </nav>
+        </section>
+        <div>
+            <input type="password" id="pwd" placeholder="Password">
+            <i id="togglePwd" class="fa fa-eye" style="cursor:pointer" aria-hidden="true"
+                onclick="(function(el){const p=document.getElementById('pwd'); p.type = p.type === 'password' ? 'text' : 'password'; el.classList.toggle('fa-eye'); el.classList.toggle('fa-eye-slash');})(this)"></i>
+        </div>
+    </main>
+</body>
+
+</html>
